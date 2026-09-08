@@ -50,6 +50,8 @@ body {
 .img_contenedor {
   background-image: url("../img/moto_piza.jpg");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 100%;
 }
 
