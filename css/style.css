@@ -48,7 +48,7 @@ body {
 /* Subcontenedor img */
 
 .img_contenedor {
-  background-image: url(/img/moto_piza.jpg);
+  background-image: url("../img/moto_piza.jpg");
   background-size: cover;
   width: 100%;
 }
@@ -100,7 +100,7 @@ body {
 
 /* Contenedor menu_lista img */
 .menu_lista_img {
-  background-image: url(/img/menu_img.png);
+  background-image: url("../img/menu_img.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
