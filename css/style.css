@@ -1,0 +1,150 @@
+/* Normalización */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Body */
+body {
+  line-height: 1.5;
+  background-color: #f5f5f5;
+}
+
+/* header */
+.barra_navegacion_header {
+  background: #222222;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.logo {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.contenedor_enlaces_header {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.contenedor_enlaces_header a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Contenedor seccion ppal */
+.flex-container {
+  display: flex;
+  padding: 30px 15px 30px 15px;
+  min-height: 350px;
+  font-weight: 600;
+}
+
+/* Subcontenedor img */
+
+.img_contenedor {
+  background-image: url(/img/moto_piza.jpg);
+  background-size: cover;
+  width: 100%;
+}
+
+.titulo_img {
+  font-size: 24px;
+  color: #fc200c;
+  text-align: left;
+  padding: 15px;
+}
+
+/* Subcontenedor Menu */
+.menu {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  padding: 15px;
+}
+
+.menu_titulo {
+  color: #fc200c;
+  text-align: center;
+  font-size: 24px;
+}
+
+/* Contenedor lista + img */
+.menu_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Contenedor Menu lista */
+.menu_lista_contenedor {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_lista_titulo {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.menu_lista li {
+  margin-bottom: 10px;
+}
+
+/* Contenedor menu_lista img */
+.menu_lista_img {
+  background-image: url(/img/menu_img.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 92px;
+  height: 129px;
+}
+
+/* Footer */
+.barra_navegacion_footer {
+  background: #222222;
+  display: flex;
+  /* Invertir el sentido de main axis */
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.contenedor_enlaces_footer {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  gap: 10px;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.contenedor_enlaces_footer a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Cambiar el orden de los enlaces */
+.enlace1 {
+  order: 1;
+}
+
+.enlace2 {
+  order: 3;
+}
+
+.enlace3 {
+  order: 4;
+}
+.enlace4 {
+  order: 2;
+}
