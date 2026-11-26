@@ -9,18 +9,23 @@
 body {
   line-height: 1.5;
   background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* header */
+
 .barra_navegacion_header {
   background: #222222;
   height: 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 10px;
 }
+
 .logo_header {
   display: flex;
   gap: 15px;
@@ -37,11 +42,20 @@ body {
   color: white;
 }
 
+main {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 /* Contenedor seccion ppal */
 .flex-container {
   display: flex;
   padding: 30px 15px 30px 15px;
-  min-height: 350px;
+  min-height: 500px;
+  height: 100%;
   font-weight: 600;
 }
 
@@ -90,6 +104,7 @@ body {
 /* Contenedor lista + img */
 .menu_container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -162,6 +177,7 @@ body {
 .enlace3 {
   order: 4;
 }
+
 .enlace4 {
   order: 2;
 }
@@ -171,13 +187,16 @@ body {
     position: sticky;
     top: 0;
     z-index: 2;
-    width: 100%;
+  
   }
+
   .barra_navegacion_header {
+    gap: 1rem;
     justify-content: center;
     max-height: 120px;
     height: 100%;
   }
+
   .logo_header {
     display: flex;
     gap: 15px;
@@ -195,7 +214,7 @@ body {
   }
 
   .menu {
-    padding: 0;
+    padding: 3rem 0;
   }
 
   .img_contenedor {
